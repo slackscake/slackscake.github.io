@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maintenance | Святослав</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 40px;
+            border-radius: 12px;
+            background-color: #1e1e1e;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            color: #b0b0b0;
+        }
+
+        .status {
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: #2d2d2d;
+            border-left: 4px solid #4f46e5;
+            border-radius: 4px;
+            margin-bottom: 2rem;
+        }
+
+        .loader {
+            width: 50px;
+            height: 50px;
+            border: 3px solid #2d2d2d;
+            border-radius: 50%;
+            border-top-color: #4f46e5;
+            margin: 2rem auto;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .contact {
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            color: #808080;
+        }
+
+        .contact a {
+            color: #4f46e5;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="status">Linkedin временно недоступен</div>
+        <h1>На техническом обслуживании</h1>
+        <p>Я работаю над улучшением портфолио в linkedin, чтобы сделать его еще лучше. Пожалуйста, вернитесь позже.</p>
+        <div class="loader"></div>
+        <p>Linkedin Святослава скоро будет доступен с обновленным контентом.</p>
+        <div class="contact">
+            Если у вас есть срочные вопросы, свяжитесь со мной по email: <a href="mailto:svyatoslav@devslax.com">svyatoslav@devslax.com</a>
+        </div>
+    </div>
+</body>
+</html>
